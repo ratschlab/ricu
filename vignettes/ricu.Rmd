@@ -73,7 +73,9 @@ pkgdown:
 options(
   width = 76,
   kableExtra.latex.load_packages = FALSE,
-  crayon.enabled = FALSE
+  crayon.enabled = FALSE,
+  message = FALSE,
+  warning = FALSE
 )
 
 library(ricu)
