@@ -50,6 +50,7 @@ jobs:
             eth-mds/mimic-demo
             eth-mds/eicu-demo
             nbenn/mockthat
+            any::qpdf  
 
       - uses: r-lib/actions/check-r-package@v2
         env:
