@@ -22,6 +22,9 @@ jobs:
         uses: mamba-org/provision-with-micromamba@e2b397b12d0a38069451664382b769c9456e3d6d
         with:
           cache-env: true
+      - name: Install knitr manually
+        run: |
+          Rscript -e 'install.packages("knitr", repos = "http://cran.us.r-project.org")'
       - name: Run R CMD check
         run: |
           R CMD build . && R CMD check --as-cran $(ls -t . | head -n1)
