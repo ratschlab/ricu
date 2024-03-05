@@ -26,4 +26,5 @@ dependencies:
   - r-kableExtra
   - r-magick
   - r-cowplot
+  - r-knitr
   - r-pdftools
