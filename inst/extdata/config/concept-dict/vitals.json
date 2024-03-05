@@ -84,6 +84,14 @@
                     "table": "data_float_h",
                     "sub_var": "DataID"
                 }
+            ],
+            "picdb": [
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV4"
+                    ]
+                }
             ]
         }
     },
@@ -150,6 +158,14 @@
                     ],
                     "table": "chartevents",
                     "sub_var": "itemid"
+                }
+            ],
+            "picdb": [
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV16"
+                    ]
                 }
             ]
         }
@@ -226,6 +242,20 @@
                     "ids": 708,
                     "table": "data_float_h",
                     "sub_var": "DataID"
+                }
+            ],
+            "picdb": [
+                {
+                    "table": "chartevents",
+                    "ids": [
+                        "1003"
+                    ]
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV1"
+                    ]
                 }
             ]
         }
@@ -333,6 +363,14 @@
                     "table": "data_float_h",
                     "sub_var": "DataID"
                 }
+            ],
+            "picdb": [
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV5"
+                    ]
+                }
             ]
         }
     },
@@ -420,6 +458,14 @@
                     ],
                     "table": "data_float_h",
                     "sub_var": "DataID"
+                }
+            ],
+            "picdb": [
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV3"
+                    ]
                 }
             ]
         }
@@ -537,6 +583,26 @@
                     "ids": 709,
                     "table": "data_float_h",
                     "sub_var": "DataID"
+                }
+            ],
+            "picdb": [
+                {
+                    "table": "chartevents",
+                    "ids": [
+                        "1001"
+                    ]
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV14"
+                    ]
+                },
+                {
+                    "table": "labevents",
+                    "ids": [
+                        5253
+                    ]
                 }
             ]
         }
