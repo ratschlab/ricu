@@ -24,7 +24,7 @@ jobs:
           cache-env: true
       - name: Run R CMD check
         run: |
-          R CMD check --as-cran --no-vignettes --no-manual .
+          R CMD build . && R CMD check --as-cran $(ls -t . | head -n1)
         env:
           _R_CHECK_CRAN_INCOMING_: false
       - name: Check for warnings

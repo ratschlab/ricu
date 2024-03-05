@@ -18,3 +18,12 @@ dependencies:
   - r-cli>=2.1.0
   - r-fansi
   - r-openssl
+  # optional
+  - r-rticles
+  - r-forestmodel
+  - r-ggplot2
+  - r-survival
+  - r-kableExtra
+  - r-magick
+  - r-cowplot
+  - r-pdftools
