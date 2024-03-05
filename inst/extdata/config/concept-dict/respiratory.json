@@ -235,13 +235,6 @@
                     "sub_var": "itemid"
                 },
                 {
-                    "table": "surgery_vital_signs",
-                    "ids": [
-                        "SV17"
-                    ],
-                    "sub_var": "itemid"
-                },
-                {
                     "table": "labevents",
                     "ids": [
                         5252
@@ -364,13 +357,6 @@
                     "table": "chartevents",
                     "ids": [
                         "1004"
-                    ],
-                    "sub_var": "itemid"
-                },
-                {
-                    "table": "surgery_vital_signs",
-                    "ids": [
-                        "SV13"
                     ],
                     "sub_var": "itemid"
                 }

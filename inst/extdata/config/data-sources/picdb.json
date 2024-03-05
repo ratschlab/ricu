@@ -798,9 +798,8 @@
                     "time_vars": [
                         "monitor_time"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "oper_id",
+                    "val_var": "value"
                 },
                 "num_rows": 1944187,
                 "cols": {
