@@ -35,10 +35,7 @@
                         "deathtime",
                         "edregtime",
                         "edouttime"
-                    ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    ]
                 },
                 "num_rows": 13449,
                 "cols": {
@@ -132,9 +129,9 @@
                         "charttime",
                         "storetime"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "charttime",
+                    "val_var": "valuenum",
+                    "unit_var": "valueuom"
                 },
                 "num_rows": 886680,
                 "cols": {
@@ -185,10 +182,7 @@
             "diagnoses_icd": {
                 "files": "V1.1.0/DIAGNOSES_ICD.csv",
                 "defaults": {
-                    "time_vars": [],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "val_var": "ICD10_CODE_CN"
                 },
                 "num_rows": 22712,
                 "cols": {
@@ -221,10 +215,6 @@
             "d_icd_diagnoses": {
                 "files": "V1.1.0/D_ICD_DIAGNOSES.csv",
                 "defaults": {
-                    "time_vars": [],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
                 },
                 "num_rows": 25379,
                 "cols": {
@@ -253,10 +243,6 @@
             "d_items": {
                 "files": "V1.1.0/D_ITEMS.csv",
                 "defaults": {
-                    "time_vars": [],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
                 },
                 "num_rows": 479,
                 "cols": {
@@ -293,10 +279,6 @@
             "d_labitems": {
                 "files": "V1.1.0/D_LABITEMS.csv",
                 "defaults": {
-                    "time_vars": [],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
                 },
                 "num_rows": 832,
                 "cols": {
@@ -335,10 +317,7 @@
                 "defaults": {
                     "time_vars": [
                         "recordtime"
-                    ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    ]
                 },
                 "num_rows": 402142,
                 "cols": {
@@ -384,9 +363,8 @@
                         "intime",
                         "outtime"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "intime",
+                    "val_var": "last_careunit"
                 },
                 "num_rows": 13941,
                 "cols": {
@@ -445,9 +423,9 @@
                         "charttime",
                         "storetime"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "charttime",
+                    "val_var": "amount",
+                    "unit_var": "amountuom"
                 },
                 "num_rows": 26884,
                 "cols": {
@@ -493,9 +471,9 @@
                     "time_vars": [
                         "charttime"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "charttime",
+                    "val_var": "valuenum",
+                    "unit_var": "valueuom"
                 },
                 "num_rows": 8411637,
                 "cols": {
@@ -544,9 +522,7 @@
                     "time_vars": [
                         "charttime"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "charttime"
                 },
                 "num_rows": 183869,
                 "cols": {
@@ -615,10 +591,7 @@
                     "time_vars": [
                         "examtime",
                         "reporttime"
-                    ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    ]
                 },
                 "num_rows": 183809,
                 "cols": {
@@ -665,9 +638,9 @@
                         "charttime",
                         "storetime"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "charttime",
+                    "val_var": "value",
+                    "unit_var": "valueuom"
                 },
                 "num_rows": 39891,
                 "cols": {
@@ -718,9 +691,7 @@
                         "dob",
                         "dod"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "val_var": "expire_flag"
                 },
                 "num_rows": 12881,
                 "cols": {
@@ -759,9 +730,9 @@
                         "startdate",
                         "enddate"
                     ],
-                    "index_var": null,
-                    "val_var": null,
-                    "unit_var": null
+                    "index_var": "startdate",
+                    "val_var": "dose_val_rx",
+                    "unit_var": "dose_unit_rx"
                 },
                 "num_rows": 1256591,
                 "cols": {
