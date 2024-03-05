@@ -237,13 +237,15 @@
                     "table": "chartevents",
                     "ids": [
                         "1013"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 },
                 {
                     "table": "labevents",
                     "ids": [
                         6322
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -405,13 +407,15 @@
                     "table": "chartevents",
                     "ids": [
                         "1014"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 },
                 {
                     "table": "labevents",
                     "ids": [
                         6323
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }

@@ -78,7 +78,8 @@
                     "ids": [
                         5211,
                         5249
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -299,7 +300,8 @@
                     "table": "labevents",
                     "ids": [
                         5219
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -381,7 +383,8 @@
                     "table": "labevents",
                     "ids": [
                         5227
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -449,7 +452,8 @@
                     "table": "labevents",
                     "ids": [
                         5228
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -532,7 +536,8 @@
                     "ids": [
                         5235,
                         5236
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -613,7 +618,8 @@
                         5373,
                         5374,
                         5386
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -699,7 +705,8 @@
                     "ids": [
                         5239,
                         5244
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }

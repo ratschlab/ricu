@@ -156,7 +156,8 @@
                     "table": "chartevents",
                     "ids": [
                         "1008"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }

@@ -90,7 +90,8 @@
                     "table": "surgery_vital_signs",
                     "ids": [
                         "SV4"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -165,7 +166,8 @@
                     "table": "surgery_vital_signs",
                     "ids": [
                         "SV16"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -249,13 +251,15 @@
                     "table": "chartevents",
                     "ids": [
                         "1003"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 },
                 {
                     "table": "surgery_vital_signs",
                     "ids": [
                         "SV1"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -369,7 +373,8 @@
                     "table": "surgery_vital_signs",
                     "ids": [
                         "SV5"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -465,7 +470,8 @@
                     "table": "surgery_vital_signs",
                     "ids": [
                         "SV3"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -590,19 +596,22 @@
                     "table": "chartevents",
                     "ids": [
                         "1001"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 },
                 {
                     "table": "surgery_vital_signs",
                     "ids": [
                         "SV14"
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 },
                 {
                     "table": "labevents",
                     "ids": [
                         5253
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }

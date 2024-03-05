@@ -74,7 +74,8 @@
                     "table": "labevents",
                     "ids": [
                         5024
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -154,7 +155,8 @@
                     "table": "labevents",
                     "ids": [
                         5025
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -381,7 +383,8 @@
                     "table": "labevents",
                     "ids": [
                         5248
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -974,7 +977,8 @@
                         5032,
                         5041,
                         6954
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1050,7 +1054,8 @@
                     "ids": [
                         5626,
                         5821
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1158,7 +1163,8 @@
                     "ids": [
                         5047,
                         5223
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1249,7 +1255,8 @@
                     "table": "labevents",
                     "ids": [
                         5226
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1332,7 +1339,8 @@
                     "table": "labevents",
                     "ids": [
                         5059
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1424,7 +1432,8 @@
                     "table": "labevents",
                     "ids": [
                         5062
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1505,7 +1514,8 @@
                     "table": "labevents",
                     "ids": [
                         5072
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1581,7 +1591,8 @@
                     "table": "labevents",
                     "ids": [
                         6525
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -1640,7 +1651,8 @@
                     "table": "labevents",
                     "ids": [
                         6192
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }

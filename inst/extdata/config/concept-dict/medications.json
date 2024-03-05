@@ -1511,7 +1511,8 @@
                     "table": "labevents",
                     "ids": [
                         6172
-                    ]
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
