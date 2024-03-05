@@ -136,7 +136,7 @@
                     "val_var": null,
                     "unit_var": null
                 },
-                "num_rows": 886681,
+                "num_rows": 886680,
                 "cols": {
                     "row_id": {
                         "name": "ROW_ID",
@@ -497,7 +497,7 @@
                     "val_var": null,
                     "unit_var": null
                 },
-                "num_rows": 8411638,
+                "num_rows": 8411637,
                 "cols": {
                     "row_id": {
                         "name": "ROW_ID",
