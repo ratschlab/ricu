@@ -133,7 +133,7 @@
                     "val_var": "valuenum",
                     "unit_var": "valueuom"
                 },
-                "num_rows": 886680,
+                "num_rows": 2278978,
                 "cols": {
                     "row_id": {
                         "name": "ROW_ID",
@@ -475,7 +475,7 @@
                     "val_var": "valuenum",
                     "unit_var": "valueuom"
                 },
-                "num_rows": 8411637,
+                "num_rows": 10094117,
                 "cols": {
                     "row_id": {
                         "name": "ROW_ID",
