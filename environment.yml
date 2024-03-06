@@ -28,3 +28,5 @@ dependencies:
   - r-cowplot
   - r-knitr
   - r-pdftools
+  - r-covr
+  - r-units
