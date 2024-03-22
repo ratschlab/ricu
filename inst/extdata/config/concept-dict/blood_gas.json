@@ -762,7 +762,13 @@
                     "sub_var": "itemid"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "ids": 5256,
+                    "table": "labevents",
+                    "sub_var": "itemid"
+                }
+            ]
         }
     }
 }
