@@ -155,7 +155,13 @@
                     "sub_var": "LaboratoryID"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "ids": 5215,
+                    "table": "labevents",
+                    "sub_var": "itemid"
+                }
+            ]
         }
     },
     "fio2": {

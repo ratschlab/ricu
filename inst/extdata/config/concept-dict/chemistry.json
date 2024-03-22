@@ -679,7 +679,14 @@
                     "callback": "transform_fun(binary_op(`*`, 4.008))"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "ids": 5034,
+                    "table": "labevents",
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(binary_op(`*`, 4), 'mg/dL', 'mmol/L')"
+                }
+            ]
         }
     },
     "ck": {
