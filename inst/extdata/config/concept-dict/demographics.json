@@ -413,14 +413,7 @@
                 {
                     "table": "chartevents",
                     "ids": [
-                        "1014"
-                    ],
-                    "sub_var": "itemid"
-                },
-                {
-                    "table": "labevents",
-                    "ids": [
-                        6323
+                        1014
                     ],
                     "sub_var": "itemid"
                 }
