@@ -1670,7 +1670,17 @@
                     "ids": [
                         6525
                     ],
-                    "sub_var": "itemid"
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(binary_op(`/`, 1000), 'ng/mL', 'pg/m')"
+                },
+                {
+                    "table": "labevents",
+                    "ids": [
+                        6525
+                    ],
+                    "sub_var": "itemid",
+                    "val_var": "value",
+                    "callback": "apply_map(c(`<0.003` = 0.003))"
                 }
             ]
         }
