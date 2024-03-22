@@ -714,7 +714,8 @@
                     "table": "labevents",
                     "ids": [
                         5239,
-                        5244
+                        5244,
+                        5242
                     ],
                     "sub_var": "itemid"
                 }
