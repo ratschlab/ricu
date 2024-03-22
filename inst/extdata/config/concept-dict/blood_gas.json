@@ -264,7 +264,14 @@
                     "sub_var": "DataID"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "ids": 5222,
+                    "table": "labevents",
+                    "sub_var": "itemid"
+                }
+
+            ]
         }
     },
     "hbco": {
