@@ -801,7 +801,15 @@
                     "sub_var": "LaboratoryID"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "labevents",
+                    "ids": [
+                        5038
+                    ],
+                    "sub_var": "itemid"
+                }
+            ]
         }
     },
     "ckmb": {
