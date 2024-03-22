@@ -883,7 +883,7 @@
                         5039
                     ],
                     "sub_var": "itemid",
-                    "callback": "convert_unit(binary_op(`*`, 0.1893), 'U/L')"
+                    "callback": "convert_unit(binary_op(`*`, 0.1893), 'ng/mL', 'U/L')"
                 }
             ]
         }
