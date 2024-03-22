@@ -310,6 +310,15 @@
                     "table": "laboratory",
                     "sub_var": "LaboratoryID"
                 }
+            ],
+            "picdb": [
+                {
+                    "table": "labevents",
+                    "ids": [
+                        5031
+                    ],
+                    "sub_var": "itemid"
+                }
             ]
         }
     },
