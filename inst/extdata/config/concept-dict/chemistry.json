@@ -876,7 +876,16 @@
                     "sub_var": "LaboratoryID"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "labevents",
+                    "ids": [
+                        5039
+                    ],
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(binary_op(`*`, 0.1893), 'U/L')"
+                }
+            ]
         }
     },
     "cl": {
@@ -953,7 +962,15 @@
                     "sub_var": "LaboratoryID"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "labevents",
+                    "ids": [
+                        5218
+                    ],
+                    "sub_var": "itemid"
+                }
+            ]
         }
     },
     "crea": {
