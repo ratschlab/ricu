@@ -73,7 +73,8 @@
                 {
                     "table": "labevents",
                     "ids": [
-                        5024
+                        5024,
+                        6465
                     ],
                     "sub_var": "itemid"
                 }
