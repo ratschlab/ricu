@@ -1239,7 +1239,8 @@
                         5047,
                         5223
                     ],
-                    "sub_var": "itemid"
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(binary_op(`*`, 18.016), 'mg/dL')"
                 }
             ]
         }
