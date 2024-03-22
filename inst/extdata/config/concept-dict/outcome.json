@@ -79,7 +79,7 @@
                     "callback": "transform_fun(comp_na(`==`, 1L))",
                     "class": "col_itm"
                 }
-            ],
+            ]
         }
     },
     "dopa60": {
