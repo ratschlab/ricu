@@ -131,7 +131,14 @@
                     "class": "col_itm"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "patients",
+                    "val_var": "dob",
+                    "callback": "transform_fun(mimic_age)",
+                    "class": "col_itm"
+                }
+            ]
         }
     },
     "bmi": {
