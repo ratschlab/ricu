@@ -232,7 +232,13 @@
                     "sub_var": "LaboratoryID"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "ids": [5026, 5195],
+                    "table": "labevents",
+                    "sub_var": "itemid"
+                }
+            ]
         }
     },
     "ast": {
@@ -304,8 +310,7 @@
                     "table": "laboratory",
                     "sub_var": "LaboratoryID"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "bicar": {
