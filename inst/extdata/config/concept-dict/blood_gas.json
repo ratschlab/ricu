@@ -155,13 +155,7 @@
                     "sub_var": "LaboratoryID"
                 }
             ],
-            "picdb": [
-                {
-                    "ids": 5215,
-                    "table": "labevents",
-                    "sub_var": "itemid"
-                }
-            ]
+            "picdb": []
         }
     },
     "fio2": {
@@ -264,14 +258,7 @@
                     "sub_var": "DataID"
                 }
             ],
-            "picdb": [
-                {
-                    "ids": 5222,
-                    "table": "labevents",
-                    "sub_var": "itemid"
-                }
-
-            ]
+            "picdb": []
         }
     },
     "hbco": {
@@ -627,7 +614,10 @@
                     "table": "labevents",
                     "ids": [
                         5237,
-                        5238
+                        5238,
+                        5373,
+                        5374,
+                        5386
                     ],
                     "sub_var": "itemid"
                 }
@@ -714,8 +704,7 @@
                     "table": "labevents",
                     "ids": [
                         5239,
-                        5244,
-                        5242
+                        5244
                     ],
                     "sub_var": "itemid"
                 }
@@ -767,13 +756,7 @@
                     "sub_var": "itemid"
                 }
             ],
-            "picdb": [
-                {
-                    "ids": 5256,
-                    "table": "labevents",
-                    "sub_var": "itemid"
-                }
-            ]
+            "picdb": []
         }
     }
 }
