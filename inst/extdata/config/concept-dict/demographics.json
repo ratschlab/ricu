@@ -323,7 +323,14 @@
                     "class": "col_itm"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "patients",
+                    "val_var": "gender",
+                    "class": "col_itm",
+                    "callback": "apply_map(c(M = 'Male', F = 'Female'))"
+                }
+            ]
         }
     },
     "weight": {
