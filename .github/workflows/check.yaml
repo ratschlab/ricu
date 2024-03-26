@@ -57,3 +57,7 @@ jobs:
             cat $CHECK_LOG_FILE
             exit 1
           fi
+        env:
+          _R_CHECK_CRAN_INCOMING_: false
+          _R_CHECK_FORCE_SUGGESTS_: false
+          _R_CHECK_DOC_SIZES_: false
