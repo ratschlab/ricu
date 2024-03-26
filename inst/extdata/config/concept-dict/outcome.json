@@ -215,6 +215,13 @@
           ]
         }
     },
+    "circ_fail": {
+        "description": "circulatory failure",
+        "concepts": ["map", "cf_treat", "lact"],
+        "category": "outcome",
+        "callback": "circ_fail",
+        "class": "rec_cncpt"
+    },
     "dopa60": {
         "concepts": [
             "dopa_rate",
@@ -539,5 +546,55 @@
         ],
         "callback": "susp_inf",
         "class": "rec_cncpt"
-    }
+    },
+    "sep3_abx_cont": {
+        "concepts": ["sofa", "susp_inf_alt"],
+        "description": "sepsis-3 criterion (alt. def.: continuous abx only)",
+        "category": "outcome",
+        "callback": "sep3_abx_cont",
+        "class": "rec_cncpt"
+    },
+    "susp_inf_abx_cont": {
+        "concepts": ["abx_cont", "samp"],
+        "description": "suspected infection (alt. def.: continuous abx only)",
+        "category": "outcome",
+        "aggregate": [
+          [
+            "sum"
+          ],
+          [
+            false
+          ]
+        ],
+        "callback": "susp_inf_abx_cont",
+        "class": "rec_cncpt"
+    },
+    "aki": {
+        "description": "acute kidney injury (KDIGO 1/2/3)",
+        "concepts": "kdigo",
+        "category": "outcome",
+        "callback": "aki",
+        "class": "rec_cncpt"
+      },
+      "kdigo": {
+        "description": "kidney disease improving global outcome staging",
+        "concepts": ["kdigo_crea", "kdigo_urine"],
+        "category": "outcome",
+        "callback": "kdigo",
+        "class": "rec_cncpt"
+      },
+      "kdigo_crea": {
+        "description": "kidney disease improving global outcome creatinine component",
+        "concepts": "crea",
+        "category": "outcome",
+        "callback": "kdigo_crea",
+        "class": "rec_cncpt"
+      },
+      "kdigo_urine": {
+        "description": "kidney disease improving global outcome urine output component",
+        "concepts": ["urine_rate", "weight"],
+        "category": "outcome",
+        "callback": "kdigo_urine",
+        "class": "rec_cncpt"
+      }
 }
