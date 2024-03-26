@@ -30,4 +30,5 @@ dependencies:
   - r-pdftools
   - r-covr
   - r-units
+  - r-tinytex
   - texlive-core # for CI
