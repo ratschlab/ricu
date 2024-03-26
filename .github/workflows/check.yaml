@@ -23,6 +23,7 @@ jobs:
         with:
           cache-env: true
       - name:
+        shell: bash -l {0}
         run: |
           which R
       - name: Install knitr manually
