@@ -34,3 +34,4 @@ dependencies:
   - r-testthat
   - r-mockthat
   - r-pkgload
+  - r-codetools
