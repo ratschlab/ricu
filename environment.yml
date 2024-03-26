@@ -30,4 +30,3 @@ dependencies:
   - r-pdftools
   - r-covr
   - r-units
-  - pdflatex
