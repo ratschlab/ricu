@@ -22,14 +22,14 @@ jobs:
         uses: mamba-org/provision-with-micromamba@e2b397b12d0a38069451664382b769c9456e3d6d
         with:
           cache-env: true
-      - name:
-        shell: bash -l {0}
-        run: |
-          which pdflatex
       - name: Install TinyTex
         shell: bash -l {0}
         run: |
           Rscript -e 'tinytex::install_tinytex(force = TRUE)'
+      - name: Install demo datasets
+        shell: bash -l {0}
+        run: |
+          Rscript -e 'install.packages(c("mimic.demo", "eicu_demo"), repos="https://eth-mds.github.io/physionet-demo")'
       - name: Run R CMD check
         shell: bash -l {0}
         run: |
