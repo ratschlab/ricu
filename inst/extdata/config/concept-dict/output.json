@@ -2,7 +2,7 @@
     "urine": {
         "unit": "mL",
         "min": 0,
-        "max": 4000,
+        "max": 7000,
         "aggregate": "sum",
         "description": "urine output",
         "omopid": 4264378,
@@ -167,7 +167,7 @@
     "urine_rate": {
         "unit": "mL/h",
         "min": 0,
-        "max": 2000,
+        "max": 3000,
         "aggregate": "max",
         "description": "urine rate per hour",
         "category": "output",
@@ -211,6 +211,12 @@
             }
           ],
           "mimic_demo": [
+            {
+              "class": "fun_itm",
+              "callback": "combine_callbacks(fwd_concept('urine'), urine_rate)"
+            }
+          ],
+          "sic": [
             {
               "class": "fun_itm",
               "callback": "combine_callbacks(fwd_concept('urine'), urine_rate)"
