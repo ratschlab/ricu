@@ -25,7 +25,7 @@ jobs:
       - name: Install TinyTex
         shell: bash -l {0}
         run: |
-          Rscript -e 'tinytex::install_tinytex(force = TRUE)'
+          Rscript -e 'tinytex::install_tinytex()'
       - name: Install demo datasets
         shell: bash -l {0}
         run: |
