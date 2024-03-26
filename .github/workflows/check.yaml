@@ -31,12 +31,9 @@ jobs:
         run: |
           Rscript -e 'install.packages("knitr", repos = "http://cran.us.r-project.org")'
       - name: Run R CMD check
-        uses: xu-cheng/texlive-action@v2
-        with:
-          scheme: small
-          shell: bash -l {0}
-          run: |
-            R CMD build . && R CMD check --as-cran $(ls -t . | head -n1)
+        shell: bash -l {0}
+        run: |
+          R CMD build . && R CMD check --as-cran $(ls -t . | head -n1)
         env:
           _R_CHECK_CRAN_INCOMING_: false
       - name: Check for warnings
