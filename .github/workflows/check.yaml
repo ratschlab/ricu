@@ -36,6 +36,7 @@ jobs:
           R CMD build . && R CMD check --as-cran $(ls -t . | head -n1) --no-manual
         env:
           _R_CHECK_CRAN_INCOMING_: false
+          _R_CHECK_DOC_SIZES_: false
       - name: Check for warnings
         shell: bash -l {0}
         run: |

@@ -35,4 +35,3 @@ dependencies:
   - r-mockthat
   - r-pkgload
   - r-codetools
-  - qpdf
