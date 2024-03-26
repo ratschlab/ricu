@@ -27,14 +27,17 @@ jobs:
         run: |
           which R
       - name: Install knitr manually
+        shell: bash -l {0}
         run: |
           Rscript -e 'install.packages("knitr", repos = "http://cran.us.r-project.org")'
       - name: Run R CMD check
+        shell: bash -l {0}
         run: |
           R CMD build . && R CMD check --as-cran $(ls -t . | head -n1)
         env:
           _R_CHECK_CRAN_INCOMING_: false
       - name: Check for warnings
+        shell: bash -l {0}
         run: |
           CHECK_LOG_FILE=ricu.Rcheck/00check.log
           CHECK_INSTALL_FILE=ricu.Rcheck/00install.out
