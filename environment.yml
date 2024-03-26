@@ -36,3 +36,4 @@ dependencies:
   - r-pkgload
   - r-codetools
   - r-qpdf
+  - qpdf
