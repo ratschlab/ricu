@@ -33,7 +33,7 @@ jobs:
       - name: Run R CMD check
         shell: bash -l {0}
         run: |
-          R CMD build . && R CMD check --as-cran $(ls -t . | head -n1) --no-manual
+          R CMD build . && R CMD check --no-manual --as-cran $(ls -t . | head -n1)
         env:
           _R_CHECK_CRAN_INCOMING_: false
           _R_CHECK_FORCE_SUGGESTS_: false
@@ -57,7 +57,3 @@ jobs:
             cat $CHECK_LOG_FILE
             exit 1
           fi
-        env:
-          _R_CHECK_CRAN_INCOMING_: false
-          _R_CHECK_FORCE_SUGGESTS_: false
-          _R_CHECK_DOC_SIZES_: false
