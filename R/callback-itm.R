@@ -213,16 +213,6 @@ mimic_age <- function(x) {
 
 eicu_age <- function(x) as.numeric(ifelse(x == "> 89", 90, x))
 
-sic_sex <- function(x) {
-  ifelse(
-    x == 735, 
-    "Male",
-    ifelse(x == 736, 
-            "Female",
-            NA_character_
-  ))
-}
-
 hirid_death <- function(x, val_var, sub_var, env, ...) {
 
   dis <- "discharge_status"

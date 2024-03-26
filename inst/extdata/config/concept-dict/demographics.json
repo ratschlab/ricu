@@ -320,7 +320,7 @@
                   "table": "cases",
                   "val_var": "sex",
                   "class": "col_itm",
-                  "callback": "transform_fun(sic_sex)"
+                  "callback": "apply_map(c(`735` = 'Male', `736` = 'Female'))"
                 }
             ],
             "picdb": [
