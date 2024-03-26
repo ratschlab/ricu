@@ -25,7 +25,7 @@ jobs:
       - name:
         shell: bash -l {0}
         run: |
-          which pdflatex
+          which R
       - name: Install knitr manually
         shell: bash -l {0}
         run: |
