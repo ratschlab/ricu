@@ -30,6 +30,10 @@ jobs:
         shell: bash -l {0}
         run: |
           Rscript -e 'install.packages("knitr", repos = "http://cran.us.r-project.org")'
+      - name: Install TinyTex
+        shell: bash -l {0}
+        run: |
+          Rscript -e 'tinytex::install_tinytex()'
       - name: Run R CMD check
         shell: bash -l {0}
         run: |

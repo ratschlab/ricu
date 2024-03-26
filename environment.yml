@@ -31,3 +31,4 @@ dependencies:
   - r-covr
   - r-units
   - r-tinytex
+  - texlive-core # for CI
