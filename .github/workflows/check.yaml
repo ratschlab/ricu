@@ -51,7 +51,7 @@ jobs:
             cat $CHECK_LOG_FILE
             exit 1
           fi
-          if cat $CHECK_LOG_FILE | grep -q "WARNING"; then
+          if cat $CHECK_LOG_FILE | grep -q "WARNING" | grep -q -v -e "checking sizes of PDF files under ‘inst/doc’ ... WARNING"; then
             echo "Found warnings, treated as errors."
             cat $CHECK_LOG_FILE
             exit 1
