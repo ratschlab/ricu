@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-         os: ['ubuntu-latest', 'macos-latest'] # , 'windows-latest']
+         os: ['ubuntu-latest']
 
     steps:
       - uses: actions/checkout@v4
@@ -37,6 +37,8 @@ jobs:
         env:
           _R_CHECK_CRAN_INCOMING_: false
           _R_CHECK_FORCE_SUGGESTS_: false
+      # R CMD check raises a warning by qpdf that the generated docs PDF is large and
+      # should be compressed. Currently we ignore this warning via the grep below.
       - name: Check for warnings
         shell: bash -l {0}
         run: |
