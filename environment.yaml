@@ -37,3 +37,4 @@ dependencies:
   - r-codetools
   - r-qpdf
   - qpdf
+  - r-mimic-demo
