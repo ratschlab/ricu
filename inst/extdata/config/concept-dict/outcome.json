@@ -212,6 +212,16 @@
               "callback": "mimic_death_icu",
               "class": "col_itm"
             }
+          ],
+          "sic": [
+            {
+              "table": "cases",
+              "index_var": "offsetofdeath",
+              "adm_time": "offsetafterfirstadmission",
+              "val_var": "timeofstay",
+              "callback": "sic_death",
+              "class": "col_itm"
+            }
           ]
         }
     },
