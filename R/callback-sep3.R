@@ -528,7 +528,7 @@ susp_inf_abx_cont <- function(..., abx_count_win = hours(24L), abx_min_count = 1
     keep_components = keep_components,
     interval = interval
   )
-  rename_cols(res, "susp_inf_alt", "susp_inf", by_ref = TRUE)
+  rename_cols(res, "susp_inf_abx_cont", "susp_inf", by_ref = TRUE)
   res
 }
 
@@ -537,13 +537,13 @@ sep3_abx_cont <- function (..., si_window = c("first", "last", "any"), delta_fun
           sofa_thresh = 2L, si_lwr = hours(48L), si_upr = hours(24L),
           keep_components = FALSE, interval = NULL)
 {
-  cnc <- c("sofa", "susp_inf_alt")
+  cnc <- c("sofa", "susp_inf_abx_cont")
   res <- ricu:::collect_dots(cnc, interval, ...)
   sofa <- res[["sofa"]]
-  susp <- res[["susp_inf_alt"]]
+  susp <- res[["susp_inf_abx_cont"]]
 
-  # make `susp_inf_alt` look like susp_inf to pass on to the original ricu::sep3
-  rename_cols(susp, "susp_inf", "susp_inf_alt", by_ref = TRUE)
+  # make `susp_inf_abx_cont` look like susp_inf to pass on to the original ricu::sep3
+  rename_cols(susp, "susp_inf", "susp_inf_abx_cont", by_ref = TRUE)
 
   # pass the rest of the calculations to ricu::susp_inf
   res <- ricu::sep3(

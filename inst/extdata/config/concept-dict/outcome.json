@@ -558,7 +558,7 @@
         "class": "rec_cncpt"
     },
     "sep3_abx_cont": {
-        "concepts": ["sofa", "susp_inf_alt"],
+        "concepts": ["sofa", "susp_inf_abx_cont"],
         "description": "sepsis-3 criterion (alt. def.: continuous abx only)",
         "category": "outcome",
         "callback": "sep3_abx_cont",
