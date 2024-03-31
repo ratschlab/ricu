@@ -1857,6 +1857,13 @@
             "picdb": []
         }
     },
+    "phn_dur": {
+        "description": "phenylephrine duration",
+        "category": "medications",
+        "aggregate": "max",
+        "sources": {
+        }
+    },
     "levo_dur": {
         "description": "levosimendan duration",
         "category": "medications",
