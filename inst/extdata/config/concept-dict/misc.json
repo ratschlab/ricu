@@ -57,6 +57,20 @@
         "description": "Patient Identifier",
         "target": "id_tbl",
         "sources": {
+          "aumc": [
+            {
+              "table": "admissions",
+              "val_var": "patientid",
+              "class": "col_itm"
+            }
+          ],
+          "mimic_demo": [
+            {
+              "table": "admissions",
+              "val_var": "subject_id",
+              "class": "col_itm"
+            }
+          ],
           "mimic": [
             {
               "table": "admissions",
@@ -78,10 +92,31 @@
               "class": "col_itm"
             }
           ],
+          "eicu_demo": [
+            {
+              "table": "patient",
+              "val_var": "patientunitstayid",
+              "class": "col_itm"
+            }
+          ],
           "eicu": [
             {
               "table": "patient",
               "val_var": "patientunitstayid",
+              "class": "col_itm"
+            }
+          ],
+          "picdb": [
+            {
+              "table": "icustays",
+              "val_var": "subject_id",
+              "class": "col_itm"
+            }
+          ],
+          "sic": [
+            {
+              "table": "cases",
+              "val_var": "patientid",
               "class": "col_itm"
             }
           ]
