@@ -1953,7 +1953,7 @@
                     "table": "inputevents_cv",
                     "sub_var": "itemid",
                     "grp_var": "linkorderid",
-                    "callback": "combine_callbacks(\n               mimic_kg_rate, mimic_rate_cv)\n             "
+                    "callback": "combine_callbacks(mimic_kg_rate, mimic_rate_cv)"
                 },
                 {
                     "ids": 30128,
@@ -1976,7 +1976,7 @@
                     "table": "inputevents_cv",
                     "sub_var": "itemid",
                     "grp_var": "linkorderid",
-                    "callback": "combine_callbacks(\n               mimic_kg_rate, mimic_rate_cv)\n             "
+                    "callback": "combine_callbacks(mimic_kg_rate, mimic_rate_cv)"
                 },
                 {
                     "ids": 30128,
