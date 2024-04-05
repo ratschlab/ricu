@@ -141,6 +141,15 @@
               "callback": "transform_fun(comp_na(`==`, 1L))",
               "class": "col_itm"
             }
+          ],
+          "picdb": [
+            {
+              "table": "admissions",
+              "index_var": "deathtime",
+              "val_var": "hospital_expire_flag",
+              "callback": "transform_fun(comp_na(`==`, 1L))",
+              "class": "col_itm"
+            }
           ]
         }
     },
@@ -220,6 +229,15 @@
               "adm_time": "offsetafterfirstadmission",
               "val_var": "timeofstay",
               "callback": "sic_death",
+              "class": "col_itm"
+            }
+          ],
+          "picdb": [
+            {
+              "table": "admissions",
+              "index_var": "deathtime",
+              "val_var": "hospital_expire_flag",
+              "callback": "mimic_death_icu",
               "class": "col_itm"
             }
           ]

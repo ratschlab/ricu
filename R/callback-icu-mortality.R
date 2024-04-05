@@ -61,3 +61,19 @@ miiv_death_icu <- function(x, env, ...){
   mi_death_icu(x, transfers, icu_wards, ...)
 }
 
+picdb_death_icu <- function(x, env, ...){
+
+  icu_stays <- env[["icustays"]]
+
+  # For each "hadm_id" we find the "icustay_id" of the last ICU stay based on the "intime"
+  last_icu_stay <- icu_stays[ , .(icustay_id = icustay_id[which.max(intime)]), by = hadm_id]
+  print(last_icu_stay)
+  print(x)
+
+  # icu_wards <- sort(unique(env[["icustays"]]$first_careunit))
+  # transfers <- load_ts(env[["icustays"]], id_var = "hadm_id", index_var = "intime", interval = mins(1L))
+  # transfers <- change_id(transfers, "icustay", as_src_cfg(env), id_type = TRUE)
+
+  # rename_cols(transfers, "ward", "curr_careunit", by_ref = TRUE)
+  # mi_death_icu(x, transfers, icu_wards, ...)
+}
