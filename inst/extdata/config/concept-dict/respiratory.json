@@ -200,6 +200,13 @@
                         "1006"
                     ],
                     "sub_var": "itemid"
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV17"
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -421,6 +428,13 @@
                         "1004"
                     ],
                     "sub_var": "itemid"
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": [
+                        "SV13"
+                    ],
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -548,8 +562,7 @@
                     "sub_var": "itemid",
                     "callback": "transform_fun(set_val(TRUE))"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "vent_ind": {
@@ -772,8 +785,7 @@
                     "sub_var": "itemid",
                     "callback": "transform_fun(set_val(TRUE))"
                 }
-            ],
-            "picdb": []
+            ]
         }
     }
 }
