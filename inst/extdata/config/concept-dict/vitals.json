@@ -104,6 +104,11 @@
                         1015
                     ],
                     "sub_var": "itemid"
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": "SV4",
+                    "sub_var": "itemid"
                 }
             ]
         }
@@ -182,6 +187,11 @@
               }
             ],
             "picdb": [
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": "SV16",
+                    "sub_var": "itemid"
+                }
             ]
         }
     },
@@ -267,6 +277,11 @@
                     "ids": [
                         1003, 1002
                     ],
+                    "sub_var": "itemid"
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": ["SV1", "SV2"],
                     "sub_var": "itemid"
                 }
             ]
@@ -379,6 +394,11 @@
                 }
             ],
             "picdb": [
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": "SV5",
+                    "sub_var": "itemid"
+                }
             ]
         }
     },
@@ -486,6 +506,11 @@
                     "ids": [
                         1016
                     ],
+                    "sub_var": "itemid"
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": "SV3",
                     "sub_var": "itemid"
                 }
             ]
@@ -641,6 +666,11 @@
                     "ids": [
                         5253
                     ],
+                    "sub_var": "itemid"
+                },
+                {
+                    "table": "surgery_vital_signs",
+                    "ids": ["SV14", "SV15"],
                     "sub_var": "itemid"
                 }
             ]
