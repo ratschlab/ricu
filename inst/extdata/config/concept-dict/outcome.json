@@ -315,7 +315,13 @@
                     "class": "fun_itm"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "callback": "los_callback",
+                    "win_type": "hadm",
+                    "class": "fun_itm"
+                }
+            ]
         }
     },
     "los_icu": {
@@ -382,7 +388,13 @@
                 "class": "col_itm"
               }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "icustays",
+                    "val_var": "los",
+                    "class": "col_itm"
+                }
+            ]
         }
     },
     "mews": {
