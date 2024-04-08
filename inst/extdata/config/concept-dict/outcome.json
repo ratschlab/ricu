@@ -141,6 +141,15 @@
               "callback": "transform_fun(comp_na(`==`, 1L))",
               "class": "col_itm"
             }
+          ],
+          "picdb": [
+            {
+              "table": "admissions",
+              "index_var": "deathtime",
+              "val_var": "hospital_expire_flag",
+              "callback": "transform_fun(comp_na(`==`, 1L))",
+              "class": "col_itm"
+            }
           ]
         }
     },
@@ -222,6 +231,15 @@
               "callback": "sic_death",
               "class": "col_itm"
             }
+          ],
+          "picdb": [
+            {
+              "table": "icustays",
+              "index_var": "intime",
+              "val_var": "los",
+              "callback": "picdb_death_icu",
+              "class": "col_itm"
+            }
           ]
         }
     },
@@ -297,7 +315,13 @@
                     "class": "fun_itm"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "callback": "los_callback",
+                    "win_type": "hadm",
+                    "class": "fun_itm"
+                }
+            ]
         }
     },
     "los_icu": {
@@ -364,7 +388,13 @@
                 "class": "col_itm"
               }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "icustays",
+                    "val_var": "los",
+                    "class": "col_itm"
+                }
+            ]
         }
     },
     "mews": {

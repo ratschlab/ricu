@@ -73,10 +73,14 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5492
-                    ],
+                    "ids": 5492,
                     "sub_var": "itemid"
+                },
+                {
+                    "table": "labevents",
+                    "ids": 5493,
+                    "sub_var": "itemid",
+                    "callback": "blood_cell_ratio"
                 }
             ]
         }
@@ -139,8 +143,7 @@
                     "table": "labevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "eos": {
@@ -217,9 +220,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5002
-                    ],
+                    "ids": 5002,
                     "sub_var": "itemid"
                 }
             ]
@@ -274,8 +275,7 @@
                     "table": "labevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "fgn": {
@@ -350,7 +350,14 @@
                 "class": "sic_itm"
               }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "labevents",
+                    "ids": 5164,
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(binary_op(`*`, 100), 'mg/dL', 'g/L')"
+                }
+            ]
         }
     },
     "hba1c": {
@@ -398,7 +405,13 @@
                 "class": "sic_itm"
               }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "labevents",
+                    "ids": [5628, 6070],
+                    "sub_var": "itemid"
+                }
+            ]
         }
     },
     "hct": {
@@ -567,7 +580,8 @@
                         5099,
                         5257
                     ],
-                    "sub_var": "itemid"
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(binary_op(`*`, 0.1), 'g/dL', 'g/L')"
                 }
             ]
         }
@@ -626,8 +640,7 @@
                     "table": "labevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "lymph": {
@@ -710,7 +723,19 @@
                   "class": "sic_itm"
                 }
             ],
-            "picdb": []
+            "picdb": [
+                {
+                    "table": "labevents",
+                    "ids": [5006, 5503, 5111, 5503],
+                    "sub_var": "itemid"
+                },
+                {
+                    "table": "labevents",
+                    "ids": 5110,
+                    "sub_var": "itemid",
+                    "callback": "blood_cell_ratio"
+                }
+            ]
         }
     },
     "mch": {
@@ -782,9 +807,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5113
-                    ],
+                    "ids": 5113,
                     "sub_var": "itemid"
                 }
             ]
@@ -862,10 +885,9 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5114
-                    ],
-                    "sub_var": "itemid"
+                    "ids": 5114,
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(binary_op(`*`, 0.1), '%')"
                 }
             ]
         }
@@ -939,9 +961,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5115
-                    ],
+                    "ids": 5115,
                     "sub_var": "itemid"
                 }
             ]
@@ -1033,9 +1053,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5094
-                    ],
+                    "ids": [5005, 5094, 5095, 5511],
                     "sub_var": "itemid"
                 }
             ]
@@ -1118,9 +1136,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5129
-                    ],
+                    "ids": 5129,
                     "sub_var": "itemid"
                 }
             ]
@@ -1186,11 +1202,9 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5186,
-                        6890
-                    ],
-                    "sub_var": "itemid"
+                    "ids": [5186, 6890],
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(identity_callback, 'sec')"
                 }
             ]
         }
@@ -1263,10 +1277,9 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5161
-                    ],
-                    "sub_var": "itemid"
+                    "ids": 5161,
+                    "sub_var": "itemid",
+                    "callback": "convert_unit(identity_callback, 'sec')"
                 }
             ]
         }
@@ -1336,11 +1349,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5379,
-                        5381,
-                        6515
-                    ],
+                    "ids": 5132,
                     "sub_var": "itemid"
                 }
             ]
@@ -1399,9 +1408,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        5136
-                    ],
+                    "ids": 5136,
                     "sub_var": "itemid"
                 }
             ]
@@ -1481,9 +1488,7 @@
             "picdb": [
                 {
                     "table": "labevents",
-                    "ids": [
-                        6516
-                    ],
+                    "ids": 5141,
                     "sub_var": "itemid"
                 }
             ]
