@@ -26,10 +26,6 @@ jobs:
         shell: bash -l {0}
         run: |
           Rscript -e 'tinytex::install_tinytex()'
-      - name: Install demo datasets
-        shell: bash -l {0}
-        run: |
-          Rscript -e 'install.packages("eicu.demo", repos="https://eth-mds.github.io/physionet-demo")'
       - name: Run R CMD check
         shell: bash -l {0}
         run: |

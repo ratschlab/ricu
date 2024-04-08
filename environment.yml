@@ -38,3 +38,4 @@ dependencies:
   - r-qpdf
   - qpdf
   - r-mimic.demo
+  - r-eicu.demo
