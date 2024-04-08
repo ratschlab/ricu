@@ -76,8 +76,7 @@
                     "table": "chartevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "gcs": {
@@ -170,8 +169,7 @@
                     "table": "chartevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "rass": {
@@ -232,8 +230,7 @@
                     "table": "chartevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "tgcs": {
@@ -270,8 +267,7 @@
                     "table": "chartevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     },
     "vgcs": {
@@ -343,8 +339,7 @@
                     "table": "chartevents",
                     "sub_var": "itemid"
                 }
-            ],
-            "picdb": []
+            ]
         }
     }
 }

@@ -157,7 +157,14 @@
                 {
                     "table": "chartevents",
                     "ids": [
-                        "1008"
+                        1008
+                    ],
+                    "sub_var": "itemid"
+                },
+                {
+                    "table": "outputevents",
+                    "ids": [
+                        1034
                     ],
                     "sub_var": "itemid"
                 }
@@ -217,6 +224,12 @@
             }
           ],
           "sic": [
+            {
+              "class": "fun_itm",
+              "callback": "combine_callbacks(fwd_concept('urine'), urine_rate)"
+            }
+          ],
+          "picdb": [
             {
               "class": "fun_itm",
               "callback": "combine_callbacks(fwd_concept('urine'), urine_rate)"
