@@ -234,10 +234,10 @@
           ],
           "picdb": [
             {
-              "table": "admissions",
-              "index_var": "deathtime",
-              "val_var": "hospital_expire_flag",
-              "callback": "mimic_death_icu",
+              "table": "icustays",
+              "index_var": "intime",
+              "val_var": "los",
+              "callback": "picdb_death_icu",
               "class": "col_itm"
             }
           ]
