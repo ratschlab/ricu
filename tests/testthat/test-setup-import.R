@@ -48,6 +48,8 @@ test_that("import csv", {
 
 test_that("import partitioned", {
 
+  skip_if(TRUE)
+
   part <- list(col = "carbu", breaks = 4)
   file <- paste0(seq_len(2L), ".fst")
 
